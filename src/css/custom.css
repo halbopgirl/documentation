@@ -36,3 +36,13 @@
 .heroBanner_src-pages-index-module {
   padding-top: 10rem !important;
 }
+
+@media screen and (max-width: 768px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+}
+
+.row {
+  max-width: 100vw;
+}
