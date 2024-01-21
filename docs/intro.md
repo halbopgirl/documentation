@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-This page is an overview of the KnowBe4 Modal App
+This page is an overview of the KnowBe4 Modal App.
 
 ## Getting Started
 

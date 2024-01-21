@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Testing
 
-There is 100% code coverage when unit testing existing components with Jest 
+There is 100% code coverage when unit testing existing components with Jest.
 
 ## Test Example
 
