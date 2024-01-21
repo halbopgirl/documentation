@@ -16,4 +16,5 @@ Were I to have more time to dedicate to this project, there is a number of thing
 - Link to Documentation from modal site
 - Make button/hover text customizable via prop
 - Make documentation Site Mobile Responsive
+- Fix some mobile-specific styling issues that don't show up in browser
 
