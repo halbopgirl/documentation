@@ -2,13 +2,17 @@
 sidebar_position: 1
 ---
 
-# Getting Started
+# Overview
 
 This page is an overview of the KnowBe4 Modal App
 
 ## Getting Started
 
-Go into the knowbe4-modal folder using Visual Studio Code or another IDE and run npm start to run the app at http://localhost:3000/
+Go into the knowbe4-modal folder using Visual Studio Code or another IDE and run 
+```bash
+npm start
+```
+to run the app at http://localhost:3000/
 
 Or **try the app immediately** on **[https://knowbe4-doetschman-technicalinterview.netlify.app/](https://knowbe4-doetschman-technicalinterview.netlify.app/)**.
 

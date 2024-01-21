@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Were I to have more time to dedicate to this project, there is a number of things I would implement to improve the app's quality: 
 
-## Test Example
+## Potential Improvements
 
 - Implement i18next to ensure text will be translated into multiple languages
 - More refinement of text size/behavior on smaller screen sizes to improve responsiveness
@@ -17,4 +17,5 @@ Were I to have more time to dedicate to this project, there is a number of thing
 - Make button/hover text customizable via prop
 - Make documentation Site Mobile Responsive
 - Fix some mobile-specific styling issues that don't show up in browser
-
+- Usability testing and consumer feedback
+- Add functionality to close popup modal when area outside of modal is clicked
