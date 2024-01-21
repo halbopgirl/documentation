@@ -1,0 +1,49 @@
+---
+sidebar_position: 1
+---
+
+# Accessibility
+
+This site has many features to make it more accessible
+
+## Alt Text
+
+The embedded video includes alt text so screen readers can give a description to the user:
+
+```bash
+<iframe className="youtube-container" alt="KnowBe4 Holiday Safety Tips" src="https://www.youtube.com/embed/BQ0WrHd3-Jw?si=DLq9tn3xpTM-By-p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
+
+## Navigable by keyboard
+
+Using the tab key allows users to navigate to and open the popup modal.
+
+## Appropriate color schemes
+
+The contrast meets WCAG AAA Accessibility standards in both light and dark mode.
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      alert(`You clicked the color ${color} with label ${children}`);
+    }}>
+    {children}
+  </span>
+);
+
+This is <Highlight color="#333333">Medium Dark</Highlight> !
+
+This is <Highlight color="#282C34">Ultra Dark</Highlight> !
+
+This is <Highlight color="#000000">Pure Black</Highlight> !
+
+This is <Highlight color="#FFFFFF"><span style={{color: 'black'}}>Pure White</span></Highlight> !
+
+This is <Highlight color="#FF6600">KnowBe4 Orange</Highlight> !

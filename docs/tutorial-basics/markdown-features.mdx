@@ -1,0 +1,20 @@
+---
+sidebar_position: 4
+---
+
+# Button Link Component
+
+Button that Links user to another Page:
+
+## ButtonLink.js Code
+
+```jsx title="ButtonLink.js"
+<Link to={props.link}>
+  <button className={props.class ? props.class : "button"}>{props.label}</button>
+</Link>
+```
+
+## Props Included
+- class: allows for custom css classes to be passed to the button link
+- label: the text to be shown on the button link
+- link: the link which the user wants the button to route to
