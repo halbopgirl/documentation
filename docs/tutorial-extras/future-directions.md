@@ -11,7 +11,7 @@ Were I to have more time to dedicate to this project, there is a number of thing
 - Implement i18next to ensure text will be translated into multiple languages
 - More refinement of text size/behavior on smaller screen sizes to improve responsiveness
 - Implementing a CSS framework like Sass or CSS modules to make CSS more organized and easier to use
-- Change colors to variables
+- Create a color library/design system and change colors to variables
 - Introduce snapshot testing
 - Scrollbars could be styled to be more elegant/aesthetic
 - Link to documentation from modal site
@@ -22,3 +22,4 @@ Were I to have more time to dedicate to this project, there is a number of thing
 - Add functionality to close popup modal when area outside of modal is clicked
 - Use jsdoc and comments to make code well-commented and more easily usable for other developers
 - Update file naming on documentation site
+- Allow user to open tooltip modal using enter key when text is tabbed onto
