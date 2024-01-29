@@ -4,17 +4,17 @@ sidebar_position: 1
 
 # Overview
 
-This page is an overview of the KnowBe4 Modal App.
+This page is an overview of the Modal App.
 
 ## Getting Started
 
-Go into the knowbe4-modal folder using Visual Studio Code or another IDE and run 
+Go into the modal-app folder using Visual Studio Code or another IDE and run 
 ```bash
 npm start
 ```
 to run the app at http://localhost:3000/
 
-Or **try the app immediately** on **[https://knowbe4-doetschman-technicalinterview.netlify.app/](https://knowbe4-doetschman-technicalinterview.netlify.app/)**.
+Or **try the app immediately** on **[https://doetschman-modalapp.netlify.app/](https://doetschman-modalapp.netlify.app/)**.
 
 ### What you'll need
 
@@ -36,7 +36,7 @@ npm install babel
 Run the development server:
 
 ```bash
-cd knowbe4-modal
+cd modal-app
 npm start
 ```
 

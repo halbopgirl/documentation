@@ -18,7 +18,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://knowbe4-doetschman-technicalinterview.netlify.app/">
+            to="https://doetschman-modalapp.netlify.app/">
             Visit the Site
           </Link>
         </div>

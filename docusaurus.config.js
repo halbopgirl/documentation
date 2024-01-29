@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'KnowBe4 Modal App Documentation',
+  title: 'Modal App Documentation',
   tagline: 'Modal App',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://knowbe4-doetschman-technicalinterview.netlify.app/',
+  url: 'https://doetschman-modalapp.netlify.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -55,7 +55,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'KnowBe4 Interview Documentation',
+        title: 'Documentation',
         logo: {
           alt: 'Dinosaur Documentation Logo',
           src: 'img/logo.svg',
